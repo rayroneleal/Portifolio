@@ -53,13 +53,17 @@ ul#navigation > li {
     margin-top: 3.6rem;
 }
 
+ul#navigation > li > a:hover {
+    color: #D59D58;
+} 
+
 #logo {
     width: 25rem;
     position: relative;
     bottom: 11rem;
 }
 
-input#contato {
+button#contato {
     background-color: #544541;
     color: #f3f6ee;
     cursor: pointer;
@@ -71,7 +75,78 @@ input#contato {
     bottom: 1.3rem;
 }
 
+button#contato:hover {
+    color: #D59D58;
+    border: 2px solid #D59D58;
+}
 
+/*Main pt-1*/
+
+.topic {
+    width: 3.5rem;
+    position: relative;
+    top: 1.7rem;
+}
+
+section#parte1 {
+    display: flex;
+    gap: 3rem;
+    padding: 3rem 3rem ;
+}
+
+div#perfil > img {
+    width: 30rem;
+    height: 32rem;
+    border-radius: 50%;
+    
+}
+
+div#citacao {
+    padding-top: 4rem;
+}
+
+div#sobre {
+    width: 200rem;
+}
+
+.topic-text {
+    padding-top: 0.5rem;
+}
+
+img.skills {
+    width: 15rem;
+    height: 15rem;
+}
+
+img.skills2 {
+    width: 12rem;
+    height: 15rem;
+}
+
+img.skills3 {
+    width: 12rem;
+    height: 15rem;
+}
+
+section#parte2 {
+    text-align: center;
+    border: 0.1rem solid black;
+    margin: 0 5rem;
+}
+
+section#parte2 > h2 {
+    padding-bottom: 0.5rem;
+    
+}
+
+div.box-skill {
+    display: flex;
+    justify-content: space-around;
+}
+
+div > p {
+    font-weight: 400;
+}
 
 
 
